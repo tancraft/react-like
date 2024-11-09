@@ -1,0 +1,5 @@
+export { default as App } from './classes/App.js'
+export { default as Element } from './classes/Element.js'
+export { default as Component } from './classes/Component.js'
+export { default as EventManager } from './classes/EventManager.js'
+export { default as DataManager } from './classes/DataManager.js'

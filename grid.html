@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+        <title>tancraftwork_design</title>
+    
+        <meta name="description" content="Une description concise et précise de la page, incluant des mots-clés pertinents pour améliorer le référencement.">
+        <meta name="keywords" content="mot-clé 1, mot-clé 2, mot-clé 3, mot-clé 4">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://www.votre-site.com/url-de-la-page/">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Titre de la Page - Mot-clé Principal">
+        <meta property="og:description" content="Une description concise et précise de la page, incluant des mots-clés pertinents pour améliorer le référencement.">
+        <meta property="og:image" content="https://www.votre-site.com/image-de-partage.jpg">
+        <meta property="og:url" content="https://www.votre-site.com/url-de-la-page/">
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Titre de la Page - Mot-clé Principal">
+        <meta name="twitter:description" content="Une description concise et précise de la page, incluant des mots-clés pertinents pour améliorer le référencement.">
+        <meta name="twitter:image" content="https://www.votre-site.com/image-de-partage.jpg">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet"
+        />
+    
+    
+        <link rel="stylesheet" href="src/index.css" />
+    
+        <script type="module" src="src/app.js"></script>
+    
+    
+      </head>
+<body >
+    <div id="app"></div>   
+    <nav> 
+        <a href="index.html">Accueil</a>
+        <a href="tableau.html">tableau</a>
+      </nav>
+    <div class="grid-container">
+        <div class="grid-item header">Produit</div>
+        <div class="grid-item header">Prix</div>
+        <div class="grid-item">Chaussures</div>
+        <div class="grid-item">50 €</div>
+        <div class="grid-item">Chapeau</div>
+        <div class="grid-item">20 €</div>
+    </div>
+    
+    <style>
+        .grid-container {
+            max-width: 80%;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 10px;
+            margin: 0 auto;
+        }
+        .grid-item {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .header {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+ 
+</body>
+</html>

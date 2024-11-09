@@ -1,0 +1,99 @@
+1. Éléments Block :
+Les éléments de type "block" occupent toute la largeur disponible et commencent sur une nouvelle ligne.
+
+<div>
+<header>
+<footer>
+<section>
+<article>
+<aside>
+<nav>
+<p>
+<h1> à <h6> (titres)
+<main>
+<address>
+<pre> (texte préformaté)
+
+<ul> (liste non ordonnée)
+<ol> (liste ordonnée)
+<li> (élément de liste)
+
+<figure> (utilisé pour encapsuler une image et sa légende)
+<figcaption> (légende d'une image)
+<blockquote> (citation longue)
+<hr> (ligne horizontale)
+
+<table> (tableau)
+<tr> (ligne de tableau)
+<th> (cellule d'en-tête de tableau)
+<td> (cellule de tableau)
+
+2. Éléments Inline :
+Les éléments de type "inline" n'interrompent pas le flux du texte. Ils ne commencent pas sur une nouvelle ligne.
+
+<span>
+<a> (lien hypertexte)
+<strong> (texte en gras)
+<em> (texte en italique)
+<img> (image)
+<br> (saut de ligne)
+<code> (code informatique)
+<abbr> (abréviation)
+<cite> (citation)
+<q> (citation courte en ligne)
+<small> (petit texte)
+<sub> (indice)
+<sup> (exposant)
+<mark> (mise en évidence du texte)
+<time> (représente une date/heure)
+<ins> (texte inséré)
+<del> (texte supprimé)
+
+3. Éléments concernant les formulaires :
+
+Conteneurs et structure :
+<form> (formulaire)
+<fieldset> (groupe de contrôles dans un formulaire)
+<legend> (légende pour un <fieldset>)
+
+Champs de saisie :
+<input> (champ de saisie générique)
+type="text" (champ de texte)
+type="password" (mot de passe)
+type="email" (adresse email)
+type="number" (nombre)
+type="tel" (numéro de téléphone)
+type="url" (URL)
+type="checkbox" (case à cocher)
+type="radio" (bouton radio)
+type="file" (sélection de fichier)
+type="hidden" (champ caché)
+type="date" (sélection de date)
+type="datetime-local" (date et heure locales)
+type="month" (mois et année)
+type="week" (semaine et année)
+type="time" (heure)
+type="color" (sélection de couleur)
+type="range" (barre de défilement)
+type="search" (champ de recherche)
+type="submit" (bouton de soumission)
+type="reset" (bouton de réinitialisation)
+type="button" (bouton générique)
+
+<textarea> (zone de texte multilignes)
+
+<select> (liste déroulante)
+<option> (option dans une liste déroulante)
+<optgroup> (groupe d'options dans une liste déroulante)
+
+<button> (bouton)
+
+<label> (étiquette pour un élément de formulaire)
+
+<datalist> (liste de suggestions pour un <input> avec list)
+
+<output> (résultat d'un calcul ou d'une action dans un formulaire)
+
+<progress> (barre de progression)
+
+<meter> (mesure)
