@@ -11,10 +11,13 @@ class HeaderComponent extends BaseComponent {
             bubbles: true, // Permet de propager l'événement dans le DOM
         });
         this.dispatchEvent(event);
+
+        console.log(this.style)
     }
 
     handleClick() {
         console.log("Button in header clicked");
+
     }
 
     // Méthode appelée lorsque le composant est retiré du DOM
@@ -28,3 +31,6 @@ class HeaderComponent extends BaseComponent {
 customElements.define('header-component', HeaderComponent);
 
 export default HeaderComponent;
+
+
+

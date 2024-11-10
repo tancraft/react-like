@@ -12,6 +12,16 @@ class HomePage {
         document.body.appendChild(this.header);
         document.body.appendChild(this.footer);
 
+        this.addEvents()
+        console.log("homepage loaded")
+
+    }
+
+    addEvents(){
+        // Capture de l’événement dans HomePage ou app.js
+        window.addEventListener('resize', () => {
+            console.log("Window resized");
+        });
     }
 }
 
